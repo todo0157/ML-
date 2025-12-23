@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files (크기가 큰 데이터 파일)
+*.csv
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+
+# Model files (크기가 큰 모델 파일)
+*.pb
+*.pth
+*.ckpt
+checkpoints/
+saved_models/
+
+# Logs
+*.log
+logs/
+
+# Jupyter runtime
+.jupyter/
+
+# TensorFlow
+.tensorboard/
+tensorboard/
+
